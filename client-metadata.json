@@ -1,0 +1,8 @@
+{
+  "client_name": "Story Studio Local",
+  "redirect_uris": ["http://localhost:8484/callback", "http://localhost:3000/api/elevenlabs/callback"],
+  "grant_types": ["authorization_code", "refresh_token"],
+  "response_types": ["code"],
+  "token_endpoint_auth_method": "none",
+  "scope": "flows image_video_generation text_to_speech voice_generation"
+}
